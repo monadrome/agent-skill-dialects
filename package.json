@@ -1,0 +1,57 @@
+{
+  "name": "@huatalk/agent-skill-dialects",
+  "version": "0.1.0",
+  "description": "Local reference for agent-skill dialects: how each AI coding agent (Kimi Code, Claude Code, OpenAI Codex, Qwen Code, Cursor, GitHub Copilot, Gemini CLI, OpenHands, Trae, Junie, Kilo, Continue, Aider, ...) implements or extends the agentskills.io open format, with per-vendor default values, aliases, skip/silent-failure rules, directories, scopes, and adaptation checklists.",
+  "keywords": [
+    "agent-skills",
+    "skills",
+    "dialects",
+    "interoperability",
+    "kimi-code",
+    "claude-code",
+    "codex",
+    "reference",
+    "skill-portability"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "HuaTalk",
+    "url": "https://github.com/HuaTalk"
+  },
+  "homepage": "https://github.com/HuaTalk/agent-skill-dialects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuaTalk/agent-skill-dialects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HuaTalk/agent-skill-dialects/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "AGENTS.md",
+    "skills/",
+    "scripts/",
+    ".claude-plugin/",
+    "docs/en/",
+    "docs/zh/",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "README.md",
+    "README-zh.md"
+  ],
+  "scripts": {
+    "test": "node scripts/check-versions.js && node scripts/check-skill-contract.js",
+    "check": "node scripts/check-versions.js && node scripts/check-skill-contract.js",
+    "prepublishOnly": "npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "js-yaml": "4.3.0"
+  }
+}

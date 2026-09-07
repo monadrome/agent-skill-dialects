@@ -1,0 +1,19 @@
+{
+  "name": "agent-skill-dialects",
+  "description": "Reference skill for agent-skill dialects: per-vendor implementation and extension differences over the agentskills.io open format, routed on demand from a single context-pointer SKILL.md.",
+  "version": "0.1.0",
+  "author": {
+    "name": "HuaTalk",
+    "url": "https://github.com/HuaTalk"
+  },
+  "repository": "https://github.com/HuaTalk/agent-skill-dialects.git",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "agent-skills",
+    "skills",
+    "dialects",
+    "interoperability",
+    "reference"
+  ]
+}

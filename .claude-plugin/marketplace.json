@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agent-skill-dialects",
+  "description": "Per-vendor Agent Skills dialect reference: how each AI coding agent extends or diverges from the agentskills.io open format, with adaptation checklists for portable skill authors.",
+  "owner": {
+    "name": "HuaTalk",
+    "url": "https://github.com/HuaTalk"
+  },
+  "plugins": [
+    {
+      "name": "agent-skill-dialects",
+      "source": "./",
+      "description": "A context-pointer skill that routes to per-vendor extension docs (Kimi Code, Claude Code, Codex, Qwen Code, Cursor, Copilot, Gemini CLI, OpenHands, Trae, Junie, Kilo, Continue, Aider, ...).",
+      "category": "reference"
+    }
+  ]
+}
