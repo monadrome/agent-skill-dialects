@@ -2,7 +2,7 @@
 name: agent-skill-dialects
 description: "Same SKILL.md, different vendor dialects. Reference for how each AI coding agent (Kimi Code / Claude Code / OpenAI Codex / Qwen Code / Cursor / GitHub Copilot / Gemini CLI / OpenHands / Trae / Junie / Kilo / Continue 等) implements or extends the agentskills.io open format: field defaults, aliases, skip or silent-failure rules, directories and scope, invocation mechanics. Use when adapting a portable SKILL.md to a specific vendor or porting a skill across vendors. 同一份 SKILL.md 在不同厂商中方言不同,适配或跨厂商移植前先查目标厂商的行为差异。"
 metadata:
-  author: HuaTalk
+  author: monadrome
   version: "0.1.0"
   category: reference
 ---

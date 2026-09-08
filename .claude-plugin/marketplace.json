@@ -3,8 +3,8 @@
   "name": "agent-skill-dialects",
   "description": "Per-vendor Agent Skills dialect reference: how each AI coding agent extends or diverges from the agentskills.io open format, with adaptation checklists for portable skill authors.",
   "owner": {
-    "name": "HuaTalk",
-    "url": "https://github.com/HuaTalk"
+    "name": "monadrome",
+    "url": "https://github.com/monadrome"
   },
   "plugins": [
     {

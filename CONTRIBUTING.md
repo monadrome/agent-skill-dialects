@@ -59,4 +59,4 @@
 3. 创建短期/细粒度、具备 publish 权限的 npm token,存为仓库 secret `NPM_TOKEN`。
 4. 推发布 tag。存在 `NPM_TOKEN` 时,`publish` workflow 用它完成首次发布(Trusted Publisher 在包不存在时无法配置)。
 
-包存在后,在 npm 上给 `@huatalk/agent-skill-dialects` 配置 Trusted Publisher:GitHub owner `HuaTalk`、repository `agent-skill-dialects`、workflow `publish.yml`;然后删除 `NPM_TOKEN` secret。之后 `v*` tag 走 GitHub Actions OIDC 发布,不再读 npm token。
+包存在后,在 npm 上给 `@huatalk/agent-skill-dialects` 配置 Trusted Publisher:GitHub owner `monadrome`、repository `agent-skill-dialects`、workflow `publish.yml`;然后删除 `NPM_TOKEN` secret。之后 `v*` tag 走 GitHub Actions OIDC 发布,不再读 npm token。

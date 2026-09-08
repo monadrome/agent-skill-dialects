@@ -15,16 +15,16 @@
   ],
   "license": "MIT",
   "author": {
-    "name": "HuaTalk",
-    "url": "https://github.com/HuaTalk"
+    "name": "monadrome",
+    "url": "https://github.com/monadrome"
   },
-  "homepage": "https://github.com/HuaTalk/agent-skill-dialects",
+  "homepage": "https://github.com/monadrome/agent-skill-dialects",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HuaTalk/agent-skill-dialects.git"
+    "url": "git+https://github.com/monadrome/agent-skill-dialects.git"
   },
   "bugs": {
-    "url": "https://github.com/HuaTalk/agent-skill-dialects/issues"
+    "url": "https://github.com/monadrome/agent-skill-dialects/issues"
   },
   "publishConfig": {
     "access": "public",

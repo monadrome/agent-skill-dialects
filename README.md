@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Chinese](https://img.shields.io/badge/lang-Chinese-blue.svg)](README-zh.md)
-[![CI](https://github.com/HuaTalk/agent-skill-dialects/actions/workflows/test.yml/badge.svg)](https://github.com/HuaTalk/agent-skill-dialects/actions/workflows/test.yml)
+[![CI](https://github.com/monadrome/agent-skill-dialects/actions/workflows/test.yml/badge.svg)](https://github.com/monadrome/agent-skill-dialects/actions/workflows/test.yml)
 
 **Same SKILL.md, different vendor dialects.**
 
@@ -15,13 +15,13 @@ Use it when you write one portable SKILL.md that must run on several vendors, or
 The fastest way to make the reference available to your agent:
 
 ```bash
-npx skills add HuaTalk/agent-skill-dialects
+npx skills add monadrome/agent-skill-dialects
 ```
 
 For Claude Code, register the repository as a plugin marketplace and install the plugin:
 
 ```text
-/plugin marketplace add https://github.com/HuaTalk/agent-skill-dialects.git
+/plugin marketplace add https://github.com/monadrome/agent-skill-dialects.git
 /plugin install agent-skill-dialects@agent-skill-dialects
 ```
 
@@ -55,7 +55,7 @@ The package ships `skills/agent-skill-dialects/` plus the docs; installers such 
 ### Agent Skills (`npx skills`)
 
 ```bash
-npx skills add HuaTalk/agent-skill-dialects
+npx skills add monadrome/agent-skill-dialects
 ```
 
 Compatibility and the install location are determined by the installer and each agent's Skill implementation (Codex, Cursor, Windsurf, Gemini CLI, GitHub Copilot, Cline, and others).
@@ -63,7 +63,7 @@ Compatibility and the install location are determined by the installer and each 
 ### Claude Code plugin
 
 ```text
-/plugin marketplace add https://github.com/HuaTalk/agent-skill-dialects.git
+/plugin marketplace add https://github.com/monadrome/agent-skill-dialects.git
 /plugin install agent-skill-dialects@agent-skill-dialects
 ```
 

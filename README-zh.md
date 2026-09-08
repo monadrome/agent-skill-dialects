@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![English](https://img.shields.io/badge/lang-English-blue.svg)](README.md)
-[![CI](https://github.com/HuaTalk/agent-skill-dialects/actions/workflows/test.yml/badge.svg)](https://github.com/HuaTalk/agent-skill-dialects/actions/workflows/test.yml)
+[![CI](https://github.com/monadrome/agent-skill-dialects/actions/workflows/test.yml/badge.svg)](https://github.com/monadrome/agent-skill-dialects/actions/workflows/test.yml)
 
 **同一份 SKILL.md,在不同厂商手里是不同的"方言"。**
 
@@ -15,13 +15,13 @@ Agent Skill Dialects 是各 AI 编程 / Agent 厂商对 [agentskills.io](https:/
 让 agent 拿到这份参考最快的方式:
 
 ```bash
-npx skills add HuaTalk/agent-skill-dialects
+npx skills add monadrome/agent-skill-dialects
 ```
 
 Claude Code 走插件市场:
 
 ```text
-/plugin marketplace add https://github.com/HuaTalk/agent-skill-dialects.git
+/plugin marketplace add https://github.com/monadrome/agent-skill-dialects.git
 /plugin install agent-skill-dialects@agent-skill-dialects
 ```
 
@@ -55,7 +55,7 @@ npm install -D @huatalk/agent-skill-dialects
 ### Agent Skills(`npx skills`)
 
 ```bash
-npx skills add HuaTalk/agent-skill-dialects
+npx skills add monadrome/agent-skill-dialects
 ```
 
 兼容性与安装位置由安装器和各家 Skill 实现决定(Codex、Cursor、Windsurf、Gemini CLI、GitHub Copilot、Cline 等)。
@@ -63,7 +63,7 @@ npx skills add HuaTalk/agent-skill-dialects
 ### Claude Code 插件
 
 ```text
-/plugin marketplace add https://github.com/HuaTalk/agent-skill-dialects.git
+/plugin marketplace add https://github.com/monadrome/agent-skill-dialects.git
 /plugin install agent-skill-dialects@agent-skill-dialects
 ```
 

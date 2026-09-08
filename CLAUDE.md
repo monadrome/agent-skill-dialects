@@ -28,7 +28,7 @@ CI(`.github/workflows/test.yml`)在 push 到 main、PR、`v*` tag 时跑同一�
 
 | Channel | Reach | Mechanism |
 |---------|-------|-----------|
-| `npx skills add HuaTalk/agent-skill-dialects` | 70+ agents | 从 GitHub 发现 `skills/agent-skill-dialects/SKILL.md` 并安装到各 agent |
+| `npx skills add monadrome/agent-skill-dialects` | 70+ agents | 从 GitHub 发现 `skills/agent-skill-dialects/SKILL.md` 并安装到各 agent |
 | `/plugin install agent-skill-dialects@agent-skill-dialects` | Claude Code only | 原生 plugin marketplace,经 `.claude-plugin/` |
 
 ### Version tracking
